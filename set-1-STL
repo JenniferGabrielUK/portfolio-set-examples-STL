@@ -1,0 +1,20 @@
+#include <iostream>
+#include <iomanip>
+#include <set>
+#include <string>
+#include <algorithm>
+
+template <typename T>
+void display_1(const std::set<T> & set) {
+  std::cout << "[";
+	  for (const auto& elem : set)
+	  	std::cout << elem << " ";
+  	std::cout << "]" << std::endl;
+  }
+
+int main() {
+
+
+
+return 0;
+}
